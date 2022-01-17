@@ -1,0 +1,166 @@
+body {
+    margin: 0;
+    padding: 25px 0px;
+    font-family: sans-serif;
+    background: rgb(0, 85, 138);
+}
+
+.wrapper {
+    width: 950px;
+    margin: auto;
+    background-color: #ffffff;
+}
+
+/* header awal */
+header {
+    height: 100px;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(255, 255, 255);
+}
+
+header h1 {
+    font-size: 45px;
+    color: rgb(0, 85, 138);
+}
+
+/* header akhir */
+
+/* nav awal */
+nav {
+    background: rgb(57, 143, 190);
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+nav li a,
+nav li a:visited {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 16px;
+    display: block;
+}
+
+nav li a:hover {
+    background: rgb(0, 85, 138);
+}
+
+.center {
+    text-align: center;
+}
+
+/* nav akhir */
+
+/* section awal */
+section {
+    overflow: hidden;
+}
+
+/* section akhir */
+
+/* article awal */
+.padding {
+    padding: 40px;
+}
+
+article {
+    overflow: hidden;
+    width: 580px;
+    float: left;
+}
+
+article h1.title {
+    margin: 0;
+    color: rgb(0, 85, 138);
+    font-size: 30px;
+}
+
+article ul {
+    padding-top: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+    border-radius: 15px;
+    font-size: 19px;
+    line-height: 155%;
+    border: 3px solid rgb(0, 85, 138);
+}
+
+article h2 {
+    margin: 0;
+    color: rgb(0, 85, 138);
+    font-size: 24px;
+}
+
+article p {
+    font-size: 19px;
+    margin: 10px 0px 60px 0px;
+    line-height: 155%;
+    text-align: justify;
+}
+
+img.left {
+    float: left;
+    width: 250px;
+    height: 250px;
+    margin-right: 5px;
+    text-align: justify;
+}
+
+/* article akhir */
+
+/* aside awal */
+aside {
+    overflow: hidden;
+    width: 250px;
+    float: right;
+    background: #eee;
+}
+
+aside h2 {
+    margin: 0;
+    padding: 10px 10px;
+    background: rgb(57, 143, 190);
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+
+aside .asidebox {
+    margin: 0;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+
+}
+
+aside summary {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+aside p {
+    font-size: 12px;
+    color: rgb(0, 85, 138);
+}
+
+/* aside akhir */
+
+/* footer awal */
+footer {
+    padding: 10px;
+    background: rgb(57, 143, 190);
+    color: #f3f3f3;
+    text-align: center;
+}
+
+/* footer akhir */
