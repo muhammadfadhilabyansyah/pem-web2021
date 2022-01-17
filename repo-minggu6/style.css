@@ -1,0 +1,151 @@
+body {
+    margin: auto;
+    padding: 25px 0px;
+    background: rgb(0, 85, 138);
+    font-family: sans-serif;
+}
+
+.wrapper {
+    width: 950px;
+    margin: auto;
+    background-color: #ffffff;
+}
+
+/* nav awal */
+nav {
+    background: rgb(57, 143, 190);
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+nav li a,
+nav li a:visited {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 16px;
+    display: block;
+}
+
+nav li a:hover {
+    background: rgb(0, 85, 138);
+}
+
+.active {
+    color: white;
+    background: rgb(0, 85, 138);
+}
+
+/* nav akhir */
+
+/* header awal */
+header {
+    padding: 40px;
+    text-align: center;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+/* header akhir */
+
+/* skill awal */
+.container {
+    width: 100%;
+    background-color: #f2f2f2;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.skill-bar {
+    margin: 0 50px 0 50px;
+}
+
+.skill-bar h2 {
+    text-align: center;
+}
+
+.skill-bar label {
+    text-align: left;
+    padding: 10px;
+    font-size: 12px;
+}
+
+.skill {
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.html {
+    width: 70%;
+    background-color: #22eb72
+}
+
+.css {
+    width: 65%;
+    background-color: #1E80FA
+}
+
+.js {
+    width: 30%;
+    background-color: #E93232
+}
+
+/* skill akhir */
+
+/* form awal */
+.contact {
+    padding: 25px 50px 25px 50px;
+}
+
+.contact h1 {
+    font-size: 30px;
+}
+
+label {
+    line-height: 40px;
+}
+
+.contact-email,
+textarea {
+    width: 250px;
+    height: 25px;
+    position: relative;
+}
+
+/* form akhir */
+
+/* article about awal */
+.article-about {
+    padding: 25px 50px 25px 50px;
+    text-align: left;
+}
+
+.article-about h1 {
+    font-size: 30px;
+}
+
+/* article about akhir */
+
+/* footer awal */
+footer {
+    padding: 10px;
+    background: rgb(57, 143, 190);
+    color: #f3f3f3;
+    text-align: center;
+}
+
+/* footer akhir */
