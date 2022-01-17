@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Formulir</title>
+        <style>
+            body {
+                font-family: 'Times New Roman', Times, serif;
+                background-color: darkcyan;
+                background-size: cover;
+                padding: 15px;
+                margin: 20px auto;
+            }
+            .formpendaftaran {
+                background-color: rgba(255, 255, 255, 0.7);
+                width: 580px;
+                margin: auto;
+                text-align: center;
+                font-size: 70%;
+                padding: 5px 0px 5px 0px;
+                border-radius: 15px 15px 0px 0px;
+            }
+            .box {
+                background-color:rgba(255, 255, 255, 0.7);
+                width: 580px;
+                margin: auto;
+                padding: 20px 0px 20px 0px;
+                border-radius: 0px 0px 15px 15px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="formpendaftaran">
+            <h1>FORMULIR PENDAFTARAN</h1>
+        </div>    
+        <div class="box">
+            <form action="data.php" method="POST">
+            <table align="center">
+                <tr>
+                    <td>Nama</td>
+                    <td>:</td>
+                    <td align="left"><input type="text" name="nim" placeholder="masukan nama"></td>
+                </tr>
+                <tr>
+                    <td>Jenis Kelamin</td>
+                    <td>:</td>
+                    <td align="left"><input type="radio" name="kelamin" value="Laki-Laki"> Laki-Laki
+                        <input type="radio" name="kelamin" value="Perempuan"> Perempuan</td>
+                </tr>
+                <tr>
+                    <td>Perguruan Tinggi</td>
+                    <td>:</td>
+                    <td align="left"><select name="kampus">
+                        <option value="">--Pilih--</option>
+                        <option value="UNDIP">Universitas Diponegoro</option>
+                        <option value="UNNES">Universitas Negeri Semarang</option>
+                        <option value="UDINUS">Universitas Dian Nuswantoro</option>
+                        <option value="UNISSULA">Universitas Islam Sultan Agung</option>
+                        <option value="UIN">Universitas Islam Walisongo</option>
+                        <option value="UNS">Universitas Muhammadiyah Semarang</option>
+                        <option value="UNDIP">Universitas Semarang</option>
+                        <option value="UNTAG">Universitas 17 Agustus Semarang </option>
+                        <option value="POLINES">Politeknik Negeri Semarang</option>
+                    </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Program Studi</td>
+                    <td>:</td>
+                    <td align="left"><select name="prodi">
+                        <option value="">--Pilih--</option>
+                        <option value="TI">Teknik Informatika</option>
+                        <option value="SI">Sistem Informasi</option>
+                        <option value="DKV">Desain Komunikasi Visual</option>
+                        <option value="IKOM">Ilmu Komunikasi</option>
+                        <option value="A">Animasi</option>
+                        <option value="B">Broadcasting</option>
+                        <option value="A">Akutansi</option>
+                        <option value="M">Manajemen</option>
+                        <option value="SI">Sastra Inggris</option>
+                        <option value="MP">Manajemen Perhotelan</option>
+                        <option value="SJ">Sastra Jepang</option>
+                        <option value="KL">Kesehatan Lingkungan</option>
+                        <option value="TE">Teknik Elektro</option>
+                        <option value="TI">Teknik Industri</option>
+                        <option value="TB">Teknik Biomedis</option>
+                        <option value="TS">Teknik Sipil</option>
+                        <option value="IH">Ilmu Hukum</option>
+                        <option value="P">Psikologi</option>
+                    </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Jenjang</td>
+                    <td>:</td>
+                    <td align="left"><select name="jenjang">
+                        <option value="">--Pilih--</option>
+                        <option value="S3">S3</option>
+                        <option value="S2">S2</option>
+                        <option value="S1">S1</option>
+                        <option value="D4">D4</option>
+                        <option value="D3">D3</option>
+                        <option value="SST">SST</option>
+                    </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Angkatan Mahasiswa</td>
+                    <td>:</td>
+                    <td align="left"><select name="angkatan_mahasiswa" id="">
+                        <option value="">--Pilih--</option>
+                        <option value="2017">2014</option>
+                        <option value="2017">2015</option>
+                        <option value="2017">2016</option>
+                        <option value="2017">2017</option>
+                        <option value="2018">2018</option>
+                        <option value="2019">2019</option>
+                        <option value="2020">2020</option>
+                        <option value="2021">2021</option>
+                    </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Nomor Induk Mahasiswa</td>
+                    <td>:</td>
+                    <td align="left"><input type="text" name="nim" placeholder="masukan nim"></td>
+                </tr>
+                <tr>
+                    <td>Tanggal Lahir</td>
+                    <td>:</td>
+                    <td align="left"><input type="date" name="tanggal"></td>
+                </tr>
+                    <td>Foto Profile</td>
+                    <td>:</td>
+                    <td align="left"><input type="file" name="foto" accept="image/*"></td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td><input type="submit" name="submit" value="Kirim">
+                        <input type="reset" name="reset" value="Hapus">
+                    </td>
+                </tr>
+            </table>
+            </form>
+        </div>
+    </body>
+</html>
